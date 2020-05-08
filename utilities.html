@@ -32,6 +32,10 @@
         .border-radius-container span {
             background-color: lightgrey;
         }
+        
+        .v-align span {
+            display: inline;
+        }
     </style>
 </head>
 
@@ -92,6 +96,24 @@
         <div class="p-3 shadow-sm my-3">small shadow</div>
         <div class="p-3 shadow my-3">default shadow</div>
         <div class="p-3 shadow-lg my-3">large shadow</div>
+    </div>
+    <div class="container v-align my-5">
+        <span class="align-baseline">baseline</span>
+        <span class="align-top">top</span>
+        <span class="align-middle">middle</span>
+        <span class="align-bottom">bottom</span>
+        <span class="align-text-top">text-top</span>
+        <span class="align-text-bottom">text-bottom</span>
+    </div>
+    <div class="container my-5">
+        <span class="visible">I am visible</span>
+        <span class="invisible">I am invisible</span>
+    </div>
+    <div class="container">
+        <span class="d-block">box 1</span>
+        <span class="d-block d-md-inline-block d-lg-inline">box 2</span>
+        <span class="d-block d-md-inline-block d-lg-inline">box 3</span>
+        <span class="d-block d-md-inline-block d-lg-inline">box 4</span>
     </div>
 </body>
 
