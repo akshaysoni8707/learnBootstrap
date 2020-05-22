@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <title>Title</title>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <div class="container my-5">
+        <a href="#!" data-toggle="popover" title="Header" data-content="This is content">Toggle me</a>
+        <br>
+        <br><br>
+        <button class="btn btn-danger" data-toggle="popover" title="Header" data-content="This is content" data-placement="bottom">Bottom</button>
+        <button class="btn btn-success" data-toggle="popover" title="Header" data-content="This is content" data-placement="left">Left</button>
+        <button class="btn btn-info" data-toggle="popover" title="Header" data-content="This is content" data-placement="right">Right</button>
+        <button class="btn btn-primary" data-toggle="popover" title="Header" data-content="This is content" data-placement="top">Top</button>
+        <br><br>
+        <button class="btn btn-danger" data-toggle="popover" title="Header" data-content="This is content" data-placement="bottom" data-trigger="focus">Focus</button>
+        <br><br>
+        <button class="btn btn-success" data-toggle="popover" title="Header" data-content="This is content" data-placement="bottom" data-trigger="hover">Hover</button>
+    </div>
+</body>
+<script>
+    $(document).ready(function() {
+        $('[data-toggle="popover"]').popover();
+    });
+</script>
+
+</html>
